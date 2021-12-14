@@ -1,0 +1,200 @@
+:root {
+  --main-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --text-color: #757575;
+  --background-color: #2f303a;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+.main-logo,
+.down-logo {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.main-logo span {
+  color: var(--main-color);
+}
+.down-logo span {
+  color: var(--white-color);
+}
+.navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--accent-color);
+}
+.header-contacts a {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent-color);
+}
+.footer {
+  /*цвет сделал, чтоб видеть шрифт элемента*/
+  background-color: var(--background-color);
+}
+.footer-contacts span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--white-color);
+}
+.footer-contacts a {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus,
+.footer-contacts span:hover,
+.footer-contacts span:focus {
+  color: var(--accent-color);
+}
+.main {
+  /*цвет сделал, чтоб видеть шрифт элемента*/
+  background-color: var(--background-color);
+}
+.main h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.main button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background: var(--accent-color);
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main button:hover,
+.main button:focus {
+  background-color: #188ce8;
+}
+
+.benefits h3 {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.benefits p {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.skills h2,
+.team h2 {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.team p {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.buttons button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background: #f5f4fa;
+  padding: 6px 22px;
+  border: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons button:hover,
+.buttons button:focus {
+  background: var(--accent-color);
+  color: var(--white-color);
+}
+
+.works h3 {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.works p {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.main-logo,
+.down-logo,
+.navigation a,
+.header-contacts a,
+.footer-contacts span,
+.footer-contacts a {
+  text-decoration: none;
+}
+
+.navigation li,
+.header-contacts li,
+.benefits ul,
+.skills ul,
+.team ul,
+.footer-contacts ul,
+.works ul,
+.buttons ul {
+  list-style-type: none;
+}
+.hidden-title {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  margin-top: -1;
+}
