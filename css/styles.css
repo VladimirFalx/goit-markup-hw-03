@@ -306,7 +306,6 @@ body {
 /*----------BUTTONS-----------*/
 
 .portfolio ul {
-  margin: 0 0;
   padding: 0 0;
 }
 .buttons {
@@ -343,30 +342,28 @@ body {
 /*----------WORKS----------*/
 
 .works {
-  margin: 0 0;
-  padding: 0 0;
+  width: inherit;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 0;
+  margin-left: -30px;
+  margin-top: -30px;
 }
+
 .work {
   background-color: var(--white-color);
   border: 1px solid #eeeeee;
-}
-.works li {
-  display: block;
-  margin-bottom: 30px;
-}
-.works li:nth-last-child(-n + 3) {
-  margin: 0 0;
+  width: 370px;
+  padding: 0 0;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
-.works img {
+.work img {
   display: block;
   margin-bottom: 20px;
 }
-.works h3 {
+.work h3 {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -374,7 +371,7 @@ body {
   margin: 0 24px 4px;
   padding: 0 0;
 }
-.works p {
+.work p {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
