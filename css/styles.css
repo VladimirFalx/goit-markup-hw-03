@@ -161,13 +161,15 @@ body {
 
 .footer-contact:hover,
 .footer-contact:focus,
-.footer-contact span:hover,
-.footer-contact span:focus {
+.address:hover,
+.address:focus {
   color: var(--accent-color);
 }
+
 .footer-contact {
   margin-bottom: 9px;
 }
+
 .footer-contacts li:last-child {
   margin-bottom: 0;
 }
@@ -181,6 +183,7 @@ body {
   text-align: center;
   padding: 200px 0;
 }
+
 .slogan {
   font-weight: 900;
   font-size: 44px;
@@ -193,6 +196,7 @@ body {
   margin: 0 auto 30px;
   padding: 0;
 }
+
 .to-book {
   font-weight: 700;
   font-size: 16px;
@@ -205,6 +209,7 @@ body {
   border-radius: 4px;
   margin: 0 auto;
 }
+
 .to-book:hover,
 .to-book:focus {
   background-color: #188ce8;
@@ -215,15 +220,18 @@ body {
 .benefits {
   background-color: var(--white-color);
 }
+
 .benefits-list {
   margin: 0 0;
   padding: 0 0;
   display: flex;
   justify-content: space-between;
 }
+
 .item {
   width: 270px;
 }
+
 .benefit {
   font-size: var(--main-font);
   line-height: calc(16 / 14);
@@ -233,6 +241,7 @@ body {
   margin: 0 0 10px;
   padding: 0;
 }
+
 .description {
   font-size: var(--main-font);
   line-height: calc(24 / 14);
@@ -257,12 +266,14 @@ body {
   margin: 0 0 50px;
   padding: 0 0;
 }
+
 .skills-list {
   margin: 0 0;
   padding: 0 0;
   display: flex;
   justify-content: space-between;
 }
+
 .skills-performance {
   display: block;
 }
@@ -272,6 +283,7 @@ body {
 .team {
   background-color: var(--team-background);
 }
+
 .team-header {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -281,12 +293,14 @@ body {
   margin: 0 0 50px;
   padding: 0 0;
 }
+
 .cards {
   margin: 0 0;
   padding: 0 0;
   display: flex;
   justify-content: space-between;
 }
+
 .card {
   width: 270px;
   background-color: var(--white-color);
@@ -296,10 +310,12 @@ body {
   margin: 0 0;
   padding: 0 0;
 }
+
 .team-img {
   display: block;
   margin-bottom: 30px;
 }
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -310,6 +326,7 @@ body {
   margin: 0 0 10px;
   padding: 0 0;
 }
+
 .role {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -330,9 +347,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .buttons-item {
   margin-right: 8px;
 }
+
 .buttons li:last-child {
   margin-right: 0;
 }
@@ -349,6 +368,7 @@ body {
   border-radius: 4px;
   margin-bottom: 50px;
 }
+
 .button:hover,
 .button:focus {
   background: var(--accent-color);
@@ -382,6 +402,7 @@ body {
   display: block;
   margin: -1px 0 20px -1px;
 }
+
 .work-title {
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -390,6 +411,7 @@ body {
   margin: 0 24px 4px;
   padding: 0 0;
 }
+
 .work-type {
   font-size: 16px;
   line-height: calc(30 / 16);
