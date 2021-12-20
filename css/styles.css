@@ -27,6 +27,7 @@ body {
   padding: 94px 0;
   margin: 0 0;
 }
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -39,17 +40,20 @@ body {
   background-color: var(--white-color);
   border-bottom: solid 1px #ececec;
 }
+
 .header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
 }
+
 .navigation {
   display: flex;
   align-items: inherit;
   padding: 24px 0;
 }
+
 .logo {
   font-family: "raleway";
   font-style: normal;
@@ -60,37 +64,42 @@ body {
   color: var(--accent-color);
   margin-right: 93px;
 }
+
 .main-logo span {
   color: var(--main-color);
 }
+
 .pages {
   display: flex;
   margin: 0;
   padding: 0;
 }
-.pages li {
-  margin-right: 50px;
-}
+
 .pages li:last-child {
   margin: 0;
 }
-.pages a {
+
+.page {
   font-weight: 500;
   font-size: var(--main-font);
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--main-color);
+  margin-right: 50px;
 }
-.pages a:hover,
-.pages a:focus {
+
+.page:hover,
+.page:focus {
   color: var(--accent-color);
 }
+
 .header-contacts {
   display: inline-flex;
   margin: 0;
   padding: 0;
 }
-.header-contacts a {
+
+.header-contact {
   font-style: normal;
   font-size: var(--main-font);
   font-weight: 500;
@@ -98,11 +107,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 .header-contacts li:first-child {
   margin-right: 50px;
 }
-.header-contacts a:hover,
-.header-contacts a:focus {
+
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
 }
 
@@ -113,17 +124,21 @@ body {
   background-color: var(--background-color);
   padding: 60px 0;
 }
-.footer ul {
+
+.footer-contacts {
   margin: 0 0;
   padding: 0 0;
 }
+
 .down-logo {
   display: block;
   margin-bottom: 20px;
 }
+
 .down-logo span {
   color: var(--white-color);
 }
+
 .footer-contact {
   font-style: normal;
   font-size: var(--main-font);
@@ -135,7 +150,7 @@ body {
   display: block;
 }
 
-.footer-contact span {
+.address {
   font-style: normal;
   font-weight: 400;
   font-size: var(--main-font);
@@ -150,7 +165,7 @@ body {
 .footer-contact span:focus {
   color: var(--accent-color);
 }
-.footer-contacts li {
+.footer-contact {
   margin-bottom: 9px;
 }
 .footer-contacts li:last-child {
@@ -166,7 +181,7 @@ body {
   text-align: center;
   padding: 200px 0;
 }
-.hero h1 {
+.slogan {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -178,7 +193,7 @@ body {
   margin: 0 auto 30px;
   padding: 0;
 }
-.hero button {
+.to-book {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -190,8 +205,8 @@ body {
   border-radius: 4px;
   margin: 0 auto;
 }
-.hero button:hover,
-.hero button:focus {
+.to-book:hover,
+.to-book:focus {
   background-color: #188ce8;
 }
 
@@ -209,7 +224,7 @@ body {
 .item {
   width: 270px;
 }
-.item h3 {
+.benefit {
   font-size: var(--main-font);
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -218,7 +233,7 @@ body {
   margin: 0 0 10px;
   padding: 0;
 }
-.item p {
+.description {
   font-size: var(--main-font);
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -233,7 +248,7 @@ body {
   padding-top: 0;
   background-color: var(--white-color);
 }
-.skills h2 {
+.skills-header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -242,13 +257,13 @@ body {
   margin: 0 0 50px;
   padding: 0 0;
 }
-.skills ul {
+.skills-list {
   margin: 0 0;
   padding: 0 0;
   display: flex;
   justify-content: space-between;
 }
-.skills img {
+.skills-performance {
   display: block;
 }
 
@@ -257,7 +272,7 @@ body {
 .team {
   background-color: var(--team-background);
 }
-.team h2 {
+.team-header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -266,11 +281,9 @@ body {
   margin: 0 0 50px;
   padding: 0 0;
 }
-.team ul {
+.cards {
   margin: 0 0;
   padding: 0 0;
-}
-.cards {
   display: flex;
   justify-content: space-between;
 }
@@ -280,12 +293,14 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin: 0 0;
+  padding: 0 0;
 }
-.card img {
+.team-img {
   display: block;
   margin-bottom: 30px;
 }
-.card h3 {
+.name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -295,7 +310,7 @@ body {
   margin: 0 0 10px;
   padding: 0 0;
 }
-.card p {
+.role {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -309,23 +324,20 @@ body {
 
 /*----------BUTTONS-----------*/
 
-.portfolio ul {
-  padding: 0 0;
-}
-.buttons {
+.buttons-list {
   margin: 0 0;
   padding: 0 0;
   display: flex;
   justify-content: center;
 }
-.buttons li {
+.buttons-item {
   margin-right: 8px;
 }
 .buttons li:last-child {
   margin-right: 0;
 }
 
-.buttons button {
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -337,8 +349,8 @@ body {
   border-radius: 4px;
   margin-bottom: 50px;
 }
-.buttons button:hover,
-.buttons button:focus {
+.button:hover,
+.button:focus {
   background: var(--accent-color);
   color: var(--white-color);
 }
@@ -353,6 +365,7 @@ body {
   margin-top: -29px;
   margin-bottom: 0;
   margin-right: 0;
+  padding: 0 0;
 }
 
 .work {
@@ -364,14 +377,12 @@ body {
   margin-top: 28px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.work ul {
-  width: 370px;
-}
-.work img {
+
+.work-img {
   display: block;
   margin: -1px 0 20px -1px;
 }
-.work h3 {
+.work-title {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -379,7 +390,7 @@ body {
   margin: 0 24px 4px;
   padding: 0 0;
 }
-.work p {
+.work-type {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
