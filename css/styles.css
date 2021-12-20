@@ -4,12 +4,15 @@
   --white-color: #ffffff;
   --text-color: #757575;
   --background-color: #2f303a;
+  --team-background: #f5f4fa;
   --main-font: 14px;
 }
+
 body {
   font-family: "roboto", sans-serif;
 }
-.hidden-title {
+
+.visually-hidden {
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -252,7 +255,7 @@ body {
 /*----------TEAM----------*/
 
 .team {
-  background-color: var(--white-color);
+  background-color: var(--team-background);
 }
 .team h2 {
   font-size: 36px;
